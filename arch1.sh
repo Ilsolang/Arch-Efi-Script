@@ -34,4 +34,4 @@ pacstrap /mnt base base-devel linux linux-headers linux-firmware nano dhcpcd
 echo '3.3 Настройка системы'
 genfstab -pU /mnt >> /mnt/etc/fstab
 
-arch-chroot /mnt sh -c "$(wget $link -O -)"
+arch-chroot /mnt sh -c "$(wget https://raw.githubusercontent.com/Ilsolang/Arch-Efi-Script/main/arch2.sh -O -)"
