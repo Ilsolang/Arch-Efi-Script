@@ -1,1 +1,1 @@
-"# Arch-Efi-Script" 
+# Arch-Efi-Script
